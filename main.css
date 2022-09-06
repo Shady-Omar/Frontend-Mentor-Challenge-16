@@ -1,4 +1,7 @@
 body {
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
     width: 100%;
@@ -9,18 +12,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     flex-direction: column;
-    
 }
 
 main {
     display: flex;
-    max-width: 1440px;   
-}
-
-.container {
-    background-image: url(images/bg-pattern-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* max-width: 1440px;    */
 }
 
 .container .header {
@@ -179,6 +175,7 @@ main {
 
     main {
         max-width: 100%;
+        min-width:375px;
         flex-direction: column;   
     }
 
